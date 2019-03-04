@@ -100,7 +100,6 @@ graph TB
   <img src="vscode-breakpoints.png" width="60%">
   <h6>Fig4. 디버그 명령
 </center>
-<br>
 
 - `Fig5. 3`으로 상황에 맞는 실행명령을 수행한다
 - `Fig5. 4`는 실행명령에 따른 중단점이 이동하는 모습이다
