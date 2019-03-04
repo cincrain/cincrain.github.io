@@ -43,18 +43,18 @@ graph TB
 - VS Code `Debug`메뉴에서 실행 화살표(녹색) 옆 목록박스에서 `Chrome` 혹은 `구성 추가`를 선택
 - `launch.json`파일에서 Chrome 브라우저와 연결하는 `configurations`항목 하나를 추가한다.
 
-```ts
+  ```ts
 
-{
-  "type": "chrome",
-  "request": "attach",
-  "name": "Attach to Chrome",
-  "port": 9222,
-  "webRoot": "${workspaceFolder}"
-}
-...
+  {
+    "type": "chrome",
+    "request": "attach",
+    "name": "Attach to Chrome",
+    "port": 9222,
+    "webRoot": "${workspaceFolder}"
+  }
+  ...
 
-```
+  ```
 
 <center>
   <img src="vscode-launch.json.png" width="60%">
